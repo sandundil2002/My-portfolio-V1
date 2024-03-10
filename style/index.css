@@ -8,8 +8,25 @@ body {
 #logo-1 {
     font-weight: bolder;
     color: #116EF5;
+    font-size: 30px;
+    }
+    
+.top-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: sticky;
 }
+    
+.nav-bar>button {
+    border-radius: 10px;
+    background-color: #5a5a54;
+    color: white;
+}
+    
+.nav-bar {
+    padding-left: 5%;
+}    
 
 #logo-2 {
-    font-size: 3px;
+    font-size: 10px;
 }
