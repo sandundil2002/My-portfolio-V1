@@ -1,0 +1,15 @@
+body {
+    background-color: #3E3E3D;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+}
+
+#logo-1 {
+    font-weight: bolder;
+    color: #116EF5;
+}
+
+#logo-2 {
+    font-size: 3px;
+}
