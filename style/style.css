@@ -10,25 +10,28 @@ body {
     color: #116EF5;
     font-size: 30px;
 }
-    
+
 .top-bar {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    position: sticky;
+    position: fixed;
 }
-    
+
 .nav-bar>button {
-    border-radius: 10px;
-    background-color: #5a5a54;
+    border-radius: 5px;
     color: white;
+    background-color: #3E3E3D;
+    padding-left: 12px;
 }
-    
-.nav-bar {
-    padding-left: 5%;
-}    
+
+.nav-bar>button:hover {
+    background-color: rgb(39, 121, 39);
+    cursor: pointer;
+}
 
 #logo-2 {
     font-size: 10px;
+    margin-top: -3px;
 }
 
 .home-container {
@@ -40,6 +43,7 @@ body {
 #name {
     font-size: 70px;
     font-weight: bolder;
+    color: #116EF5;
 }
 
 #desc {
@@ -52,7 +56,7 @@ body {
     border-radius: 100%;
     border: 5px solid blue;
     margin-left: 65%;
-    margin-top: -29%;
+    margin-top: -26%;
     filter: drop-shadow(5px 5px 5px blue);
 }
 
@@ -75,6 +79,7 @@ body {
     font-size: 30px;
     font-style: italic;
 }
+
 .title {
     text-align: center;
     font-size: 70px;
