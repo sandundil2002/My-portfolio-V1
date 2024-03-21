@@ -92,7 +92,7 @@ body {
     height: 400px;
     width: 375px;
     border-radius: 100%;
-    border: 10px solid blue;
+    border: 15px solid #048DE1;
 }
 
 #full-stack {
@@ -117,4 +117,35 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     line-height: 40px;
+}
+#skills-img {
+    width: 1250px;
+    display: block;
+    margin: auto;
+    border: 3px solid #048DE1;
+    border-radius: 15px;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+
+.skill-boxes {
+    border: 3px solid #048DE1;
+    text-align: center;
+    font-size: 25px;
+    background-color: #473922;
+    border-radius: 15px;
+    color: white;
+}
+
+.skill-boxes:hover {
+    background-color: #2D241A;
+}
+
+.skill-list {
+    color: yellow;
+    font-style: italic;
 }
