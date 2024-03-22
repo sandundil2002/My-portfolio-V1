@@ -164,14 +164,15 @@ body {
 }
 
 .skill-boxes {
-    border: 3px solid #048DE1;
+    border: 3px solid #74767C;
     text-align: center;
     font-size: 25px;
     background-color: #473922;
     border-radius: 15px;
     color: white;
     width: 400px;
-        height: 350px;
+    height: 350px;
+    box-shadow: 3px 3px 3px 3px #0038FF;
 }
 
 .skill-boxes:hover {
@@ -181,4 +182,31 @@ body {
 .skill-list {
     color: yellow;
     font-style: italic;
+}
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+
+.services-boxes {
+    border: 3px solid #74767C;
+    border-radius: 15px;
+    background-color: #74767C;
+    text-align: center;
+    box-shadow: 5px 5px #0038FF;
+    color: yellow;
+}
+
+.service-img {
+    width: 80px;
+    height: 80px;
+}
+
+.service-desc {
+    color: white;
+}
+
+.services-boxes:hover {
+    background-color: #776767;
 }
