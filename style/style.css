@@ -129,13 +129,13 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-    
+
 @keyframes square {
     0% {
         width: 300px;
         height: 300px;
     }
-    
+
     25% {
         width: 500px;
         height: 350px;
@@ -145,12 +145,12 @@ body {
         width: 700px;
         height: 400px;
     }
-    
+
     75% {
         width: 900px;
         height: 450px;
     }
-    
+
     100% {
         width: 1100px;
         height: 500px;
@@ -183,6 +183,7 @@ body {
     color: yellow;
     font-style: italic;
 }
+
 .services-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -210,6 +211,7 @@ body {
 .services-boxes:hover {
     background-color: #776767;
 }
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
