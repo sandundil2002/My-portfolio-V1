@@ -87,6 +87,33 @@
     .skill-boxes>h3 {
         font-size: 23px;
     }
+
+    @keyframes square {
+        0% {
+            width: 20%;
+            height: 20vh;
+        }
+
+        25% {
+            width: 35%;
+            height: 25vh;
+        }
+
+        50% {
+            width: 50%;
+            height: 30vh;
+        }
+
+        75% {
+            width: 65%;
+            height: 35vh;
+        }
+
+        100% {
+            width: 80%;
+            height: 40vh;
+        }
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -179,6 +206,33 @@
 
     .skill-boxes>h3 {
         font-size: 25px;
+    }
+
+    @keyframes square {
+        0% {
+            width: 20%;
+            height: 30vh;
+        }
+
+        25% {
+            width: 35%;
+            height: 35vh;
+        }
+
+        50% {
+            width: 50%;
+            height: 40vh;
+        }
+
+        75% {
+            width: 65%;
+            height: 45vh;
+        }
+
+        100% {
+            width: 80%;
+            height: 50vh;
+        }
     }
 }
 
@@ -274,6 +328,33 @@
     .skill-boxes>h3 {
         font-size: 22px;
     }
+
+    @keyframes square {
+        0% {
+            width: 20%;
+            height: 40vh;
+        }
+
+        25% {
+            width: 35%;
+            height: 45vh;
+        }
+
+        50% {
+            width: 50%;
+            height: 50vh;
+        }
+
+        75% {
+            width: 65%;
+            height: 55vh;
+        }
+
+        100% {
+            width: 80%;
+            height: 60vh;
+        }
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -367,6 +448,33 @@
     .skill-boxes>h3 {
         font-size: 27px;
     }
+
+    @keyframes square {
+        0% {
+            width: 20%;
+            height: 50vh;
+        }
+
+        25% {
+            width: 35%;
+            height: 55vh;
+        }
+
+        50% {
+            width: 50%;
+            height: 60vh;
+        }
+
+        75% {
+            width: 65%;
+            height: 65vh;
+        }
+
+        100% {
+            width: 80%;
+            height: 70vh;
+        }
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -457,6 +565,33 @@
         font-size: 32px;
     }
 
+    @keyframes square {
+        0% {
+            width: 20%;
+            height: 60vh;
+        }
+
+        25% {
+            width: 35%;
+            height: 65vh;
+        }
+
+        50% {
+            width: 50%;
+            height: 70vh;
+        }
+
+        75% {
+            width: 65%;
+            height: 80vh;
+        }
+
+        100% {
+            width: 70%;
+            height: 85vh;
+        }
+    }
+
 }
 
 body {
@@ -534,33 +669,6 @@ body {
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-}
-
-@keyframes square {
-    0% {
-        width: 300px;
-        height: 300px;
-    }
-
-    25% {
-        width: 500px;
-        height: 350px;
-    }
-
-    50% {
-        width: 700px;
-        height: 400px;
-    }
-
-    75% {
-        width: 900px;
-        height: 450px;
-    }
-
-    100% {
-        width: 1100px;
-        height: 500px;
-    }
 }
 
 .skill-container {
