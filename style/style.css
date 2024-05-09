@@ -1,4 +1,6 @@
 @media screen and (min-width:0px) and (max-width:575px) {
+
+    /*...................................Home...........................................*/
     .home-container {
         padding: 23% 3% 0% 3%;
         text-align: center;
@@ -34,9 +36,51 @@
     #second-name {
         font-size: 2vh;
     }
+
+    /*...................................About..........................................*/
+
+    .title {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    #about-container {
+        padding: 0% 3% 3% 3%;
+        color: white;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    #about_me_pic {
+        width: 42vh;
+    }
+
+    #full-stack {
+        display: none;
+    }
+
+    #full-stack-res {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #text {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .details {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 15px;
+        text-align: left;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
+
+    /*...................................Home...........................................*/
     .home-container {
         padding: 18% 3% 0% 3%;
         text-align: center;
@@ -72,9 +116,51 @@
     #second-name {
         font-size: 3vh;
     }
+
+    /*...................................About..........................................*/
+
+    .title {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    #about-container {
+        padding: 0% 3% 3% 3%;
+        color: white;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    #about_me_pic {
+        width: 47vh;
+    }
+
+    #full-stack {
+        display: none;
+    }
+
+    #full-stack-res {
+        color: white;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #text {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .details {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 18px;
+        text-align: left;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
+
+    /*...................................Home...........................................*/
     .home-container {
         padding: 15% 3% 0% 3%;
         display: flex;
@@ -108,9 +194,50 @@
     #desc-responsive {
         display: none;
     }
+
+    /*...................................About..........................................*/
+
+    .title {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    #about-container {
+        padding: 1% 3% 3% 3%;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+    }
+
+    #about_me_pic {
+        width: 45vh;
+    }
+
+    #full-stack {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    #full-stack-res {
+        display: none;
+    }
+
+    #text {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .details {
+        margin-left: -50%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
+
+    /*...................................Home...........................................*/
     .home-container {
         padding: 12% 3% 0% 3%;
         display: flex;
@@ -144,9 +271,49 @@
     #desc-responsive {
         display: none;
     }
+
+    /*...................................About..........................................*/
+
+    .title {
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    #about-container {
+        padding: 1% 3% 3% 3%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #about_me_pic {
+        width: 53vh;
+    }
+
+    #full-stack {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #full-stack-res {
+        display: none;
+    }
+
+    #text {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .details {
+        margin-left: -60%;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (min-width:1200px) {
+
+    /*...................................Home...........................................*/
     .home-container {
         padding: 10% 3% 0% 3%;
         display: flex;
@@ -176,11 +343,51 @@
     #desc-responsive {
         display: none;
     }
+
+    /*...................................About..........................................*/
+
+    .title {
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    #about-container {
+        padding: 1% 3% 3% 3%;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+    }
+
+    #about_me_pic {
+        width: 67vh;
+    }
+
+    #full-stack {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #full-stack-res {
+        display: none;
+    }
+
+    #text {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .details {
+        padding-left: 10%;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 body {
     margin: 0 auto;
 }
+
+/*...................................Home...........................................*/
 
 .navbar-brand {
     margin-left: 3%;
@@ -227,43 +434,17 @@ body {
     font-style: italic;
 }
 
+/*...................................About...........................................*/
+
 .title {
     text-align: center;
-    font-size: 70px;
     color: #116EF5;
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
 }
 
 #about_me_pic {
-    height: 400px;
-    width: 375px;
     border-radius: 100%;
     border: 15px solid #048DE1;
-}
-
-#full-stack {
-    padding-left: 55%;
-    font-size: 40px;
-    color: whitesmoke;
-}
-
-.desc {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-#text {
-    margin-left: -25%;
-    line-height: 27px;
-}
-
-.details {
-    padding-left: 40%;
-    margin-top: -10%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    line-height: 40px;
 }
 
 #skills-img {
