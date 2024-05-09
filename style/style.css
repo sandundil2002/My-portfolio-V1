@@ -76,6 +76,17 @@
         font-size: 15px;
         text-align: left;
     }
+
+    .skill-boxes {
+        font-size: 20px;
+        width: 300px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .skill-boxes>h3 {
+        font-size: 23px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -156,6 +167,19 @@
         font-size: 18px;
         text-align: left;
     }
+
+    /*...................................Skills.........................................*/
+
+    .skill-boxes {
+        font-size: 20px;
+        width: 350px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .skill-boxes>h3 {
+        font-size: 25px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -233,6 +257,23 @@
         justify-content: space-evenly;
         font-size: 20px;
     }
+
+    /*...................................Skills.........................................*/
+
+    .skill-container {
+        display: flex;
+        gap: 5%;
+    }
+
+    .skill-boxes {
+        font-size: 18px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .skill-boxes>h3 {
+        font-size: 22px;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -309,6 +350,23 @@
         display: flex;
         justify-content: space-evenly;
     }
+
+    /*...................................Skills.........................................*/
+
+    .skill-container {
+        display: flex;
+        gap: 5%;
+    }
+
+    .skill-boxes {
+        font-size: 22px;
+        width: 350px;
+        height: 300px;
+    }
+
+    .skill-boxes>h3 {
+        font-size: 27px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -381,6 +439,24 @@
         display: flex;
         justify-content: space-evenly;
     }
+
+    /*...................................Skills.........................................*/
+
+    .skill-container {
+        display: flex;
+        gap: 5%;
+    }
+
+    .skill-boxes {
+        font-size: 25px;
+        width: 400px;
+        height: 350px;
+    }
+
+    .skill-boxes>h3 {
+        font-size: 32px;
+    }
+
 }
 
 body {
@@ -447,6 +523,8 @@ body {
     border: 15px solid #048DE1;
 }
 
+/*...................................Skills..........................................*/
+
 #skills-img {
     display: block;
     margin: auto;
@@ -486,20 +564,15 @@ body {
 }
 
 .skill-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5%;
+    padding: 0% 5% 0% 5%;
 }
 
 .skill-boxes {
     border: 3px solid #74767C;
     text-align: center;
-    font-size: 25px;
     background-color: #473922;
     border-radius: 15px;
     color: white;
-    width: 400px;
-    height: 350px;
     box-shadow: 3px 3px 3px 3px #0038FF;
 }
 
