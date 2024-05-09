@@ -1,3 +1,183 @@
+@media screen and (min-width:0px) and (max-width:575px) {
+    .home-container {
+        padding: 23% 3% 0% 3%;
+        text-align: center;
+    }
+
+    .name-desc {
+        font-size: 20px;
+    }
+
+    #name {
+        font-size: 6vh;
+    }
+
+    #desc {
+        display: none;
+    }
+
+    #desc-responsive {
+        font-size: 16px;
+        width: 100%;
+        font-weight: 500;
+        display: inline;
+    }
+
+    #pro_pic {
+        width: 45vh;
+    }
+
+    #first-name {
+        font-size: 4vh;
+    }
+
+    #second-name {
+        font-size: 2vh;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .home-container {
+        padding: 18% 3% 0% 3%;
+        text-align: center;
+    }
+
+    .name-desc {
+        font-size: 28px;
+    }
+
+    #name {
+        font-size: 9vh;
+    }
+
+    #desc {
+        display: none;
+    }
+
+    #desc-responsive {
+        font-size: 18px;
+        width: 100%;
+        font-weight: 500;
+        display: inline;
+    }
+
+    #pro_pic {
+        width: 50vh;
+    }
+
+    #first-name {
+        font-size: 6vh;
+    }
+
+    #second-name {
+        font-size: 3vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .home-container {
+        padding: 15% 3% 0% 3%;
+        display: flex;
+    }
+
+    .name-desc {
+        font-size: 20px;
+    }
+
+    #name {
+        font-size: 6vh;
+    }
+
+    #desc {
+        font-size: 17px;
+        width: 90%;
+    }
+
+    #pro_pic {
+        width: 48vh;
+    }
+
+    #first-name {
+        font-size: 8vh;
+    }
+
+    #second-name {
+        font-size: 4vh;
+    }
+
+    #desc-responsive {
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .home-container {
+        padding: 12% 3% 0% 3%;
+        display: flex;
+    }
+
+    .name-desc {
+        font-size: 23px;
+    }
+
+    #name {
+        font-size: 7vh;
+    }
+
+    #desc {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    #pro_pic {
+        width: 55vh;
+    }
+
+    #first-name {
+        font-size: 8vh;
+    }
+
+    #second-name {
+        font-size: 4vh;
+    }
+
+    #desc-responsive {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .home-container {
+        padding: 10% 3% 0% 3%;
+        display: flex;
+    }
+
+    #name {
+        font-size: 10vh;
+    }
+
+    #desc {
+        font-size: 3vh;
+        width: 80%;
+    }
+
+    #pro_pic {
+        width: 70vh;
+    }
+
+    #first-name {
+        font-size: 10vh;
+    }
+
+    #second-name {
+        font-size: 5vh;
+    }
+
+    #desc-responsive {
+        display: none;
+    }
+}
+
 body {
     margin: 0 auto;
 }
@@ -14,53 +194,36 @@ body {
 
 .navbar {
     color: white;
-    background-color:#2D241A;
+    background-color: #2D241A;
     width: 100%;
 }
 
 .home-container {
-    padding-top: 10%;
-    font-size: 30px;
     font-weight: bold;
+    color: white;
 }
 
 #name {
-    font-size: 70px;
     font-weight: bolder;
     color: #116EF5;
 }
 
 #desc {
-    font-size: 20px;
     font-weight: 500;
 }
 
 #pro_pic {
-    height: 450px;
     border-radius: 100%;
     border: 5px solid blue;
-    margin-left: 65%;
-    margin-top: -26%;
-    filter: drop-shadow(5px 5px 5px blue);
 }
 
 .bottom-logo {
-    margin-top: 5px;
     text-align: center;
     opacity: 20%;
     color: white;
     font-family: "Rubik Gemstones", system-ui;
     font-weight: 400;
     font-style: normal;
-}
-
-#first-name {
-    font-size: 70px;
-    font-style: italic;
-}
-
-#second-name {
-    font-size: 30px;
     font-style: italic;
 }
 
@@ -262,7 +425,7 @@ body {
     border-radius: 10px;
 }
 
-#comment{
+#comment {
     border-radius: 10px;
 }
 
@@ -280,26 +443,26 @@ body {
     border-radius: 5px;
 }
 
-#btn-submit:hover{
+#btn-submit:hover {
     background-color: #45a049;
 }
 
-.social-img{
+.social-img {
     width: 7%;
 }
 
-#social-container{
+#social-container {
     display: flex;
     flex-wrap: wrap;
     gap: 3%;
     padding-left: 25%;
 }
 
-#copyright{
+#copyright {
     text-align: center;
     color: #116EF5;
 }
 
-#copyright>h5{
+#copyright>h5 {
     margin-top: -1%;
 }
