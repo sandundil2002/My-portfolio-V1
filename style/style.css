@@ -2,7 +2,7 @@
 
     /*...................................Home...........................................*/
     .home-container {
-        padding: 23% 3% 0% 3%;
+        padding: 25% 3% 0% 3%;
         text-align: center;
     }
 
@@ -963,21 +963,12 @@ body {
 }
 
 .social-img {
-    width: 7%;
+    width: 10%;
+    margin: 0 auto;
 }
 
 #social-container {
+    padding: 0% 20% 0% 20%;
     display: flex;
-    flex-wrap: wrap;
     gap: 3%;
-    padding-left: 25%;
-}
-
-#copyright {
-    text-align: center;
-    color: #116EF5;
-}
-
-#copyright>h5 {
-    margin-top: -1%;
 }
