@@ -114,6 +114,26 @@
             height: 40vh;
         }
     }
+
+    /*...................................Services.......................................*/
+
+    .service-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .services-boxes {
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    .services-boxes>h2 {
+        font-size: 25px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -233,6 +253,26 @@
             width: 80%;
             height: 50vh;
         }
+    }
+
+    /*...................................Services.......................................*/
+
+    .service-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .services-boxes {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .services-boxes>h2 {
+        font-size: 30px;
+    }
+
+    .service-desc {
+        font-size: 20px;
     }
 }
 
@@ -355,6 +395,25 @@
             height: 60vh;
         }
     }
+
+    /*...................................Skills.........................................*/
+
+    .services-container {
+        display: flex;
+    }
+
+    .service-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .services-boxes>h2 {
+        font-size: 23px;
+    }
+
+    .service-desc {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -475,6 +534,25 @@
             height: 70vh;
         }
     }
+
+    /*...................................Skills.........................................*/
+
+    .services-container {
+        display: flex;
+    }
+
+    .service-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .services-boxes>h2 {
+        font-size: 30px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -592,6 +670,21 @@
         }
     }
 
+    /*...................................Skills.........................................*/
+
+    .services-container {
+        display: flex;
+    }
+
+    .service-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .services-boxes>h2 {
+        font-size: 40px;
+    }
+
 }
 
 body {
@@ -693,10 +786,11 @@ body {
     font-style: italic;
 }
 
+/*...................................Services..........................................*/
+
 .services-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5%;
+    padding: 0% 5% 0% 5%;
+    gap: 3%;
 }
 
 .services-boxes {
@@ -706,11 +800,6 @@ body {
     text-align: center;
     box-shadow: 5px 5px #0038FF;
     color: yellow;
-}
-
-.service-img {
-    width: 80px;
-    height: 80px;
 }
 
 .service-desc {
