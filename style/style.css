@@ -962,55 +962,6 @@ body {
     border-color: #116EF5;
 }
 
-#contact-title {
-    font-size: 35px;
-    color: #116EF5;
-}
-
-#contact-container {
-    width: 80%;
-    height: 500px;
-    border: 1px solid black;
-    padding-left: 20%;
-    background-color: whitesmoke;
-}
-
-#cont-form {
-    display: flexbox;
-}
-
-.form-label {
-    color: #116EF5;
-}
-
-.form-control {
-    width: 80%;
-    height: 40px;
-    border-radius: 10px;
-}
-
-#comment {
-    border-radius: 10px;
-}
-
-#btn-submit {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 35%;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#btn-submit:hover {
-    background-color: #45a049;
-}
-
 .social-img {
     width: 7%;
 }
