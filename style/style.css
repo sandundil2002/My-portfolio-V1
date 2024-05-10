@@ -115,7 +115,7 @@
         }
     }
 
-    /*...................................Services.......................................*/
+    /*...................................Services......................................*/
 
     .service-img {
         width: 60px;
@@ -134,11 +134,33 @@
     .service-desc {
         font-size: 18px;
     }
+
+    /*...................................projects......................................*/
+
+    .projects-box {
+        margin: 0 auto;
+        width: 400px;
+        height: 550px;
+    }
+
+    .projects-box>h2 {
+        font-size: 32px;
+    }
+
+    .projects-img {
+        width: 320px;
+        height: 380px;
+    }
+
+    .projects-btn {
+        font-size: 25px;
+        font-weight: 500;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
 
-    /*...................................Home...........................................*/
+    /*...................................Home..........................................*/
     .home-container {
         padding: 18% 3% 0% 3%;
         text-align: center;
@@ -175,7 +197,7 @@
         font-size: 3vh;
     }
 
-    /*...................................About..........................................*/
+    /*...................................About.........................................*/
 
     .title {
         font-size: 50px;
@@ -215,7 +237,7 @@
         text-align: left;
     }
 
-    /*...................................Skills.........................................*/
+    /*...................................Skills........................................*/
 
     .skill-boxes {
         font-size: 20px;
@@ -255,7 +277,7 @@
         }
     }
 
-    /*...................................Services.......................................*/
+    /*...................................Services......................................*/
 
     .service-img {
         width: 60px;
@@ -273,6 +295,28 @@
 
     .service-desc {
         font-size: 20px;
+    }
+
+    /*...................................projects......................................*/
+
+    .projects-box {
+        margin: 0 auto;
+        width: 450px;
+        height: 600px;
+    }
+
+    .projects-box>h2 {
+        font-size: 40px;
+    }
+
+    .projects-img {
+        width: 380px;
+        height: 420px;
+    }
+
+    .projects-btn {
+        font-size: 30px;
+        font-weight: 500;
     }
 }
 
@@ -352,7 +396,7 @@
         font-size: 20px;
     }
 
-    /*...................................Skills.........................................*/
+    /*...................................Skills........................................*/
 
     .skill-container {
         display: flex;
@@ -413,6 +457,32 @@
 
     .service-desc {
         font-size: 15px;
+    }
+
+    /*...................................projects......................................*/
+
+    .projects-container {
+        display: flex;
+    }
+
+    .projects-box {
+        margin: 0 auto;
+        width: 350px;
+        height: 430px;
+    }
+
+    .projects-box>h2 {
+        font-size: 26px;
+    }
+
+    .projects-img {
+        width: 200px;
+        height: 280px;
+    }
+
+    .projects-btn {
+        font-size: 23px;
+        font-weight: 500;
     }
 }
 
@@ -535,7 +605,7 @@
         }
     }
 
-    /*...................................Skills.........................................*/
+    /*...................................Skills........................................*/
 
     .services-container {
         display: flex;
@@ -552,6 +622,32 @@
 
     .service-desc {
         font-size: 18px;
+    }
+
+    /*...................................projects......................................*/
+
+    .projects-container {
+        display: flex;
+    }
+
+    .projects-box {
+        margin: 0 auto;
+        width: 400px;
+        height: 480px;
+    }
+
+    .projects-box>h2 {
+        font-size: 30px;
+    }
+
+    .projects-img {
+        width: 250px;
+        height: 300px;
+    }
+
+    .projects-btn {
+        font-size: 25px;
+        font-weight: 500;
     }
 }
 
@@ -588,7 +684,7 @@
         display: none;
     }
 
-    /*...................................About..........................................*/
+    /*...................................About.........................................*/
 
     .title {
         font-size: 70px;
@@ -670,7 +766,7 @@
         }
     }
 
-    /*...................................Skills.........................................*/
+    /*...................................Skills........................................*/
 
     .services-container {
         display: flex;
@@ -683,6 +779,28 @@
 
     .services-boxes>h2 {
         font-size: 40px;
+    }
+
+    /*...................................projects......................................*/
+
+    .projects-container {
+        display: flex;
+    }
+
+    .projects-box {
+        margin: 0 auto;
+        width: 450px;
+        height: 530px;
+    }
+
+    .projects-img {
+        width: 300px;
+        height: 350px;
+    }
+
+    .projects-btn {
+        font-size: 30px;
+        font-weight: 500;
     }
 
 }
@@ -810,24 +928,20 @@ body {
     background-color: #776767;
 }
 
+/*...................................projects..........................................*/
+
 .projects-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5%;
+    color: yellow;
+    padding: 0% 5% 0% 5%;
+    gap: 3%;
 }
 
 .projects-box {
-    height: 520px;
     border: 3px solid #74767C;
     border-radius: 15px;
     background-color: #473922;
     text-align: center;
     box-shadow: 3px 3px 3px 3px #0038FF;
-}
-
-.projects-img {
-    width: 350px;
-    height: 350px;
 }
 
 .projects-box:hover {
@@ -836,7 +950,6 @@ body {
 
 .projects-btn {
     color: white;
-    font-size: 30px;
     color: #048DE1;
     border: 3px solid rgb(15, 230, 15);
     border-radius: 6px;
