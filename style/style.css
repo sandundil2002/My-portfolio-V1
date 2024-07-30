@@ -78,7 +78,7 @@
         text-align: justify;
     }
 
-    
+
 
     .skill-boxes {
         font-size: 20px;
@@ -810,7 +810,8 @@
 
 body {
     margin: 0 auto;
-    scroll-behavior: ;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
 }
 
 /*...................................Home...........................................*/
@@ -974,4 +975,18 @@ body {
     padding: 0% 20% 0% 20%;
     display: flex;
     gap: 3%;
+}
+
+#content {
+    margin-top: 1%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content p {
+    color: white;
+}
+
+#content p span {
+    color: rgb(69, 80, 235);
 }
