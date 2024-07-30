@@ -66,16 +66,19 @@
     }
 
     #text {
-        text-align: center;
+        text-align: justify;
         font-size: 14px;
     }
 
     .details {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         font-size: 15px;
-        text-align: left;
+        text-align: justify;
     }
+
+    
 
     .skill-boxes {
         font-size: 20px;
@@ -124,7 +127,7 @@
 
     .services-boxes {
         margin: 0 auto;
-        width: 350px;
+        width: 300px;
     }
 
     .services-boxes>h2 {
@@ -139,8 +142,8 @@
 
     .projects-box {
         margin: 0 auto;
-        width: 400px;
-        height: 550px;
+        width: 300px;
+        height: 470px;
     }
 
     .projects-box>h2 {
@@ -148,8 +151,8 @@
     }
 
     .projects-img {
-        width: 320px;
-        height: 380px;
+        width: 280px;
+        height: 300px;
     }
 
     .projects-btn {
@@ -807,6 +810,7 @@
 
 body {
     margin: 0 auto;
+    scroll-behavior: ;
 }
 
 /*...................................Home...........................................*/
@@ -939,27 +943,26 @@ body {
 .projects-box {
     border: 3px solid #74767C;
     border-radius: 15px;
-    background-color: #473922;
+    background-color: #74767C;
     text-align: center;
     box-shadow: 3px 3px 3px 3px #0038FF;
 }
 
 .projects-box:hover {
-    background-color: #2D241A;
+    background-color: #776767;
 }
 
 .projects-btn {
     color: white;
-    color: #048DE1;
     border: 3px solid rgb(15, 230, 15);
     border-radius: 6px;
     text-decoration: none;
 }
 
 .projects-btn:hover {
-    background-color: rgb(39, 158, 39);
-    color: black;
-    border-color: #116EF5;
+    background-color: whitesmoke;
+    color: #0038FF;
+    border-color: black;
 }
 
 .social-img {
